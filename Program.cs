@@ -11,7 +11,9 @@ namespace HelloISM4300
             /*
              * This is a multi-line comment
              */
-            Console.WriteLine("This is a change of code");
+            Console.WriteLine("What is your name?");
+            string Name = Console.ReadLine();
+            Console.WriteLine("Hello " + Name + " this is the console speaking");
         }
     }
 }
